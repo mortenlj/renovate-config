@@ -1,0 +1,12 @@
+{
+	"extends": [
+		":automergeAll",
+		":automergeBranch",
+		":automergeDigest",
+		":automergeLinters",
+		":automergeTesters",
+		":automergeRequireAllStatusChecks",
+		"schedule:automergeDaily",
+		"config:best-practices"
+	]
+}

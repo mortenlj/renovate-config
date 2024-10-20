@@ -8,5 +8,8 @@
 		":automergeRequireAllStatusChecks",
 		"schedule:automergeDaily",
 		"config:best-practices"
+	],
+	"ignorePresets": [
+		":dependencyDashboard"
 	]
 }

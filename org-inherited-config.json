@@ -12,5 +12,20 @@
 		":dependencyDashboard"
 	],
 	"prConcurrentLimit": 5,
-	"prHourlyLimit": 2
+	"prHourlyLimit": 2,
+	"packageRules": [
+		{
+			"groupName": "Rust Kubernetes packages",
+			"groupSlug": "kubernetes-rust",
+			"matchDatasources": [
+				"crate"
+			],
+			"matchPackageNames": [
+				"kube",
+				"k8s-openapi",
+				"json-patch",
+				"jsonptr"
+			]
+		}
+	]
 }

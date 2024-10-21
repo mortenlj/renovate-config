@@ -6,7 +6,6 @@
 		":automergeLinters",
 		":automergeTesters",
 		":automergeRequireAllStatusChecks",
-		"schedule:automergeDaily",
 		"config:best-practices"
 	],
 	"ignorePresets": [

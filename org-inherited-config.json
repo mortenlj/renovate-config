@@ -26,6 +26,16 @@
 				"json-patch",
 				"jsonptr"
 			]
+		},
+		{
+			"groupName": "Github actions",
+			"groupSlug": "github-actions",
+			"matchDatasources": [
+				"github-tags"
+			],
+			"matchManagers": [
+				"github-actions"
+			]
 		}
 	]
 }

@@ -15,6 +15,16 @@
 	"prHourlyLimit": 2,
 	"packageRules": [
 		{
+			"groupName": "Rust OpenTelemetry packages",
+			"groupSlug": "opentelemetry-rust",
+			"matchDatasources": [
+				"crate"
+			],
+			"matchPackageNames": [
+				"*opentelemetry*"
+			]
+		}
+		{
 			"groupName": "Rust Kubernetes packages",
 			"groupSlug": "kubernetes-rust",
 			"matchDatasources": [

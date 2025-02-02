@@ -27,7 +27,7 @@
 				"*opentelemetry*",
 				"tracing-opentelemetry"
 			]
-		}
+		},
 		{
 			"groupName": "Rust Kubernetes packages",
 			"groupSlug": "kubernetes-rust",

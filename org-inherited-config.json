@@ -15,13 +15,17 @@
 	"prHourlyLimit": 2,
 	"packageRules": [
 		{
+		    "extends": [
+		        "monorepo:opentelemetry-rust"
+		    ],
 			"groupName": "Rust OpenTelemetry packages",
 			"groupSlug": "opentelemetry-rust",
 			"matchDatasources": [
 				"crate"
 			],
 			"matchPackageNames": [
-				"*opentelemetry*"
+				"*opentelemetry*",
+				"tracing-opentelemetry"
 			]
 		}
 		{

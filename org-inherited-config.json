@@ -17,8 +17,11 @@
       "enabled": false
     }
   },
+  "internalChecksFilter": "strict",
+  "minimumReleaseAge": "14 days",
   "prConcurrentLimit": 5,
   "prHourlyLimit": 2,
+  "prCreation": "not-pending",
   "packageRules": [
     {
       "extends": [

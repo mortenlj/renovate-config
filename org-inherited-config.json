@@ -17,6 +17,9 @@
       "enabled": false
     }
   },
+  "git-submodules": {
+    "enabled": true
+  },
   "internalChecksFilter": "strict",
   "minimumReleaseAge": "14 days",
   "prConcurrentLimit": 5,

@@ -10,7 +10,7 @@
   ],
   "env": {
     "VERSION": "0.0.0+develop"
-  }
+  },
   "ignorePresets": [
     ":dependencyDashboard",
     "group:kubernetes"

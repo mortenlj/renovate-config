@@ -9,7 +9,6 @@
     "config:best-practices"
   ],
   "ignorePresets": [
-    ":dependencyDashboard",
     "group:kubernetes"
   ],
   "docker-compose": {

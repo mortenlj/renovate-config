@@ -8,6 +8,7 @@
     ":automergeRequireAllStatusChecks",
     "schedule:daily",
     "schedule:automergeDaily",
+    ":pinDependencies",
     "config:best-practices"
   ],
   "ignorePresets": [
